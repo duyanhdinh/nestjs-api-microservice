@@ -1,0 +1,1 @@
+const sortAlphaNumeric = (a: string, b: string) => a.localeCompare(b, 'en', { numeric: true });

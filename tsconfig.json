@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+//      use for api
+//      "@/*": ["src-api/*"],
+//      "@client-modules/*": ["src-api/modules/client/*"],
+//      "@decorators/*": ["src-api/decorators/*"],
+//      "@itf/*": ["src-api/interfaces/*"],
+//      "@const/*": ["src-api/constants/*"],
+//      "@type/*": ["src-api/types/*"],
+
+//      use for service
+      "@/*": ["src-service/*"],
+      "@client-modules/*": ["src-service/modules/client/*"],
+      "@cache-modules/*": ["src-service/modules/cache/*"],
+      "@decorators/*": ["src-service/decorators/*"],
+      "@itf/*": ["src-service/interfaces/*"],
+      "@const/*": ["src-service/constants/*"],
+      "@type/*": ["src-service/types/*"]
+    }
+  }
+}
